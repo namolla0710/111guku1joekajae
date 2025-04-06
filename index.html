@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국어발표 조별과제 ppt 공유 사이트</title>
+    <style>
+      @font-face {
+        font-family: 'NanumSquareRound';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      * {
+        font-family: 'NanumSquareRound';
+      }
+      body {
+        margin: 0 0 0 0;
+      }
+      .mainVerDiv {
+        width: 100vw;
+        height: 50vh;
+
+        animation-name: rainbowback;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        border-radius: 5vh;
+        text-align: center;
+
+        margin-bottom: 10vh;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      .verDiv {
+        font-size: 5vw;
+      }
+      button {
+        width: 10vw;
+        height: 10vh;
+
+        border: none;
+        border-radius: 10vh;
+
+        font-size: 3vh;
+
+        background-color: #F9F9F9;
+      }
+
+      @keyframes rainbowback {
+        0% {
+          background-color: red;
+        }
+
+        11.25% {
+          background-color: orange;
+        }
+
+        21.25% {
+          background-color: yellow;
+        }
+
+        31.25% {
+          background-color: yellowgreen;
+        }
+
+        41.25% {
+          background-color: green;
+        }
+
+        51.25% {
+          background-color: aqua;
+        }
+
+        61.25% {
+          background-color: blue;
+        }
+
+        71.25% {
+          background-color: purple;
+        }
+
+        81.25% {
+          background-color: pink;
+        }
+
+        100% {
+          background-color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainVerDiv">
+      <div class="verDiv">
+        <span>0.0.1</span>&nbsp;&nbsp;<span></span>
+      </div>
+      <div>
+        <a download="./ppt/0.0.1.pptx">
+          <button onclick="window.location.pathname = 'ppt/0.0.1.pptx'">ppt</button>
+        </a>
+      </div>
+    </div>
+    <div class="mainVerDiv">
+      <div class="verDiv">
+        <span>0.1.0</span>&nbsp;&nbsp;<span></span>
+      </div>
+      <div>
+        <a download="./ppt/0.1.0.pptx">
+          <button onclick="window.location.pathname = 'ppt/0.1.0.pptx'">ppt</button>
+        </a>
+      </div>
+    </div>
+    <div class="mainVerDiv">
+      <div class="verDiv">
+        <span>1.0.0</span>&nbsp;&nbsp;<span></span>
+      </div>
+      <div>
+        <a download="./ppt/1.0.0.pptx">
+          <button onclick="window.location.pathname = 'ppt/1.0.0.pptx'">ppt</button>
+        </a>
+      </div>
+    </div>
+    <div class="mainVerDiv">
+      <div class="verDiv">
+        <span>1.0.1</span>&nbsp;&nbsp;<span>(최신)</span>
+      </div>
+      <div>
+        <a download="./ppt/1.0.1.pptx">
+          <button onclick="window.location.pathname = 'ppt/1.0.1.pptx'">ppt</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
